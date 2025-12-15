@@ -1,2 +1,2 @@
-# elastic
-The presentation will explain how Elasticsearch's Aggregations API can solve complex, real-time analytics problems that are slow or impractical in traditional SQL databases. 
+# E-Commerce Analytics Microservice
+Traditional SQL databases struggle with heavy analytical queries like 'rolling averages' on large datasets. This project implements a dedicated real-time analytics microservice layer using Elasticsearch. It exposes a REST API that allows frontend dashboards to retrieve complex metrics—like 7-day moving averages and day-over-day growth—instantly, without burdening the primary transactional database.
