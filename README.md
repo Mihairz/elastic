@@ -1,5 +1,5 @@
 # E-Commerce Analytics Microservice
-Traditional SQL databases struggle with heavy analytical queries like 'rolling averages' on large datasets. This project implements a dedicated real-time analytics microservice layer using Elasticsearch. It exposes a REST API that allows frontend dashboards to retrieve complex metrics—like 7-day moving averages and day-over-day growth—instantly, without burdening the primary transactional database.
+Traditional SQL databases often experience performance bottlenecks when executing heavy analytical queries on large datasets. This project implements a dedicated analytics microservice using Elasticsearch to offload this processing. It exposes a REST API that delivers instant insights—such as daily revenue histograms, category performance rankings, and long-term growth trends—ensuring the primary transactional database remains unburdened.
 
 # Use Cases
 -> Ingest Sale: The system must be able to receive a new order/sale and index it into Elasticsearch.
