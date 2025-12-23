@@ -6,6 +6,6 @@ Traditional SQL databases often experience performance bottlenecks when executin
 
 -> Get Daily Revenue: The user can request total revenue grouped by day for a specific date range.
 
--> Get Trend Analysis: The user can request the 7-day moving average to smooth out daily volatility ("Pipeline Aggregation" feature).
+-> Get Trend Analysis: The user can request revenue grouped by month to visualize long-term growth trends (Date Histogram Aggregation).
 
 -> Get Category Performance: The user can see which product categories are performing best (Bucket Aggregation).
